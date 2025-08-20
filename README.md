@@ -21,18 +21,8 @@ This project requires Python 3 and the following Python libraries installed:
 
 The full list of requirements can be found in `requirements.txt`
 
-## Instructions <a name="instructions"></a>
 
-To run the app locally:
 
-1. Create a virtual environment: `python -m venv langchain_env`
-2. Activate the virtual environment : `.\langchainenv\Scripts\activate` on Windows.
-3. Run the following command in the directory: `cd RAG_Chatabot_Langchain`
-4. Install the required dependencies `pip install -r requirements.txt`
-5. Start the app: `streamlit run RAG_app.py`
-6. In the sidebar, select the LLM provider (OpenAI, Google Generative AI or HuggingFace), choose an LLM (GPT-3.5, GPT-4, Gemini-pro or Mistral-7B-Instruct-v0.2), adjust its parameters, and insert your API keys.
-7. Create or load a Chroma vectorstore.
-8. Chat with your documents: ask questions and get 🤖 AI answers.
 
-## Blog post <a name="blog_post"></a>
+
 
